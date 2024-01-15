@@ -16,7 +16,7 @@ abstract public class PizzaProducto {
 
     public void preparar(){
         System.out.println("Preparando " + nombre);
-        System.out.println("Seleccionando la masa" + masa);
+        System.out.println("Seleccionando la masa " + masa);
         System.out.println("Agregando salsa " + salsa);
         System.out.println("Agregando ingredientes: ");
         this.ingredientes.forEach(System.out::println);
